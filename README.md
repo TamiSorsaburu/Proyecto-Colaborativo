@@ -1,8 +1,8 @@
 # "Proyecto Colaborativo"
 
 ## ¡Bienvenidos al repositorio!
- Somos el grupo Nº42
- El repositorio fue crado para generar un Sitio web Institucional. Constará de un **Inicio** con presentación de Propuesta a desarrollar, sección **Quienes Somos** (presentación del equipo) y **formulario de contacto** con los conocimientos que se vayan adquiriendo en Sistemas de Gestión de Contenidos. (en español e Inglés).
+ #### Somos el grupo Nº42
+ #### El repositorio fue crado para generar un Sitio web Institucional. Constará de un **Inicio** con presentación de Propuesta a desarrollar, sección **Quienes Somos** (presentación del equipo) y **formulario de contacto** con los conocimientos que se vayan adquiriendo en Sistemas de Gestión de Contenidos. (en español e Inglés).
  
  
 ### Contenidos a aplicar:
