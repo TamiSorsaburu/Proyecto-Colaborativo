@@ -1,1 +1,28 @@
+Mapa de sitio - Login
 
+Pasos para craer tu usuario:
+
+Correo Electrónico
+Nombres
+Apellidos
+Edad
+Sexo
+Provincia
+Ciudad
+Servicio requerido
+
+Él clientes al ingesar su usuario(Corre y Contraseña) accedererá a la pagina principal donde podrá solocitar los servicios de la misma.
+
+
+Mapa de sitio - Página principal
+
+Comienza con botones de navegación (Inicio, Servicios, Nosotros,Contactos).
+
+Seguido de una breve descripcion de la página.
+
+A continuación los botones y sus funcionalidades:
+
+	# Inicio: al posar el cursor en Inicio podremos tener uan visual de todos los demás botones.
+	# Servicios: en este botón encontráremos los distintos sevicios que ofrece la empresa.
+	# Nosotros: descripción de los integrantes que trabajan y aportan ayuda a los clientes.
+	# Contactos: encontráremos los medios por los cuales los clientes podrán contactarse con la pagina.
