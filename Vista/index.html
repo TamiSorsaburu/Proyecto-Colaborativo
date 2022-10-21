@@ -8,45 +8,110 @@
     <title>Document</title>
     <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/32b882a6dd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!--HEADER-->
+    <header>
+        <nav>
+            <button class="nav-boton" onclick="accion()">Menu</button>
+            <a href="#" class="logo"><img width="45" src="images/logo.jpeg" alt=""></a>
+            <a href="#" class="nav-enlace desaparece">Inicio</a>
+            <a href="#" class="nav-enlace desaparece">Servicios</a>
+            <a href="#" class="nav-enlace desaparece">Nosotros</a>
+            <a href="#" class="nav-enlace desaparece">Contacto</a>
+            <a href="#" class="nav-enlace desaparece">Mi cuenta</a>
+        </nav>
+        <script>
+            function accion() {
+                console.log('esta funcionando mi boton');
+                var ancla = document.getElementsByClassName('nav-enlace');
+                for (var i = 0; i < ancla.length; i++) {
+                    ancla[i].classList.toggle('desaparece')
 
-    <nav>
-        <button class="nav-boton" onclick="accion()">Menu</button>
-        <a href="#" class="logo"><img width="45" src="images/logo.jpeg" alt=""></a>
-        <a href="#" class="nav-enlace desaparece">Inicio</a>
-        <a href="#" class="nav-enlace desaparece">Servicios</a>
-        <a href="#" class="nav-enlace desaparece">Nosotros</a>
-        <a href="#" class="nav-enlace desaparece">Contacto</a>
-        <a href="#" class="nav-enlace desaparece">Mi cuenta</a>
-    </nav>
-    <script>
-        function accion() {
-            console.log('esta funcionando mi boton');
-            var ancla = document.getElementsByClassName('nav-enlace');
-            for (var i = 0; i < ancla.length; i++) {
-                ancla[i].classList.toggle('desaparece')
+                }
 
             }
+        </script>
+        <!--SLIDER-->
 
-        }
-    </script>
-    <div class="slider">
-        <ul>
-            <li><img src="images/pantalla2jpg.jpg" alt=""></li>
-            <li><img src="images/pantalla3.jpg" alt=""></li>
-            <li><img src="images/pantalla1.jpg" alt=""></li>
-            <li><img src="images/publicidad.jpg" alt=""></li>
-        </ul>
+        <div class="slider">
+            <ul>
+                <li><img src="images/foto1.jpg" alt=""></li>
+                <li><img src="images/foto2.jpg" alt=""></li>
+                <li><img src="images/pantalla1.jpg" alt=""></li>
+                <li><img src="images/pantalla3.jpg" alt=""></li>
+            </ul>
 
-    </div>
-    <footer>
+        </div>
+    </header>
+    <!--SECCION MAIN-->
+    <section class="main">
+        <article class="articulos">
+            <h2 class="titulo">Publicidades Led </h2>
 
-        <div class="footer">
-    
-      </footer>
-    
+            <p>La señalización digital multimedia es una herramienta de comunicación que permite difundir mensajes publicitarios e informativos a través de diferentes dispositivos, como pantallas led interiores o exteriores, mupis luminosos (mobiliario urbano digital), letreros, etc. La mayor parte de estos dispositivos se encuentran en espacios públicos, fachadas de edificios, centros comerciales y el interior de establecimientos.</p>
+        </article>
+
+        <article class="ariculos">
+            <h2 class="titulo">¿Porque Led?</h2>
+
+            <p>En los centros comerciales, las esperas frente a las cajas, mostradores o probadores pueden ser interminables. Los establecimientos que ubican pantallas led consiguen dos efectos: por un lado, entretienen a los clientes, lo que mejora su experiencia de compra. Por otro, retroalimentan su publicidad ofreciendo a los compradores productos que tal vez no habían visto. En numerosas ocasiones, eso se traduce en nueva venta.</p>
+        </article>
+
+        <section class="trabajos">
+            <h2 class="titulo">Trabajos</h2>
+
+            <div class="trabajo"></div>
+            <img src="images/interior.jpg" alt="Trabajo">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum magni neque qui provident ducimus
+                suscipit, vitae quibusdam dicta asperiores facere voluptates voluptatem porro illum autem quidem ea
+                laboriosam dolores! Laudantium?</p>
+            <div class="trabajo"></div>
+            <img src="images/interior1.jpg" alt="Trabajo">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum laboriosam odit laborum voluptate
+                aperiam, facilis itaque non minima in iure quidem natus debitis, veritatis ipsa officia hic. Laboriosam,
+                ullam vel?</p>
+            <div class="trabajo"></div>
+            <img src="images/interior2.jpg" alt="Trabajo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non incidunt, corrupti odit eligendi
+                similique animi alias, est explicabo, ratione repudiandae nulla deleniti vitae dicta dignissimos?
+                Dolorum nisi tempore voluptate?</p>
+        </section>
+    </section>
+
+    <!--pie de pagina-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a hrf="#">
+                        <img src="images/logo.jpeg" alt="logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sint?</P>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-whatsapp"></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b> slee Dw</b> -Todos los Derechos Reservados</small>
+        </div>
+
+    </footer>
+
 
 
 
