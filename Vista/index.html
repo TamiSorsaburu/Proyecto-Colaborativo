@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/styleLogin.css">
+</head>
+
+<body>
+
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#" class="logo"><img width="45" src="images/logo.jpeg" alt=""></a>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Servicios</a>
+        <a href="#" class="nav-enlace desaparece">Nosotros</a>
+        <a href="#" class="nav-enlace desaparece">Contacto</a>
+        <a href="login.html" class="nav-enlace desaparece" >Mi cuenta</a>
+    </nav>
+    <script>
+        function accion() {
+            console.log('esta funcionando mi boton');
+            var ancla = document.getElementsByClassName('nav-enlace');
+            for (var i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle('desaparece')
+
+            }
+
+        }
+    </script>
+    <div class="slider">
+        <ul>
+            <li><img src="images/pantalla2jpg.jpg" alt=""></li>
+            <li><img src="images/pantalla3.jpg" alt=""></li>
+            <li><img src="images/pantalla1.jpg" alt=""></li>
+            <li><img src="images/publicidad.jpg" alt=""></li>
+        </ul>
+
+    </div>
+    <footer>
+
+        <div class="footer">
+    
+      </footer>
+    
+
+
+
+
+
+</body>
+
+</html>
