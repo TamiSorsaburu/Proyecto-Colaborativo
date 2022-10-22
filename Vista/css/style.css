@@ -38,8 +38,11 @@ nav {
 .slider {
     width: 100%;
     margin: auto;
-    height: 900px;
     overflow: hidden;
+    position: relative;
+
+
+
 }
 
 .slider ul {
@@ -59,6 +62,7 @@ nav {
 
 .slider li img {
     width: 100%;
+
 }
 
 @keyframes slider {
@@ -123,9 +127,7 @@ nav {
 .pie-pagina {
     width: 100%;
     background-color: #0a141d;
-
 }
-
 .pie-pagina .grupo-1 {
     width: 100%;
     max-width: 1200px;
@@ -188,4 +190,40 @@ nav {
         grid-gap: 30px;
         padding: 35px 0px;
     }
+
+    /*Main*/
+
 }
+.main{
+    width: 100%;
+    padding: 5px;
+    background-color: bisque;
+}
+.main .container h2{
+text-align: center;
+height: 45px;
+    
+}
+.main .container p{
+    color: midnightblue;
+}
+.container-products{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+
+}
+.product{
+    border: 1px solid #ccc; 
+    padding: 20px;
+    
+}
+.product img{
+    width: 90%;
+
+}
+
+   
