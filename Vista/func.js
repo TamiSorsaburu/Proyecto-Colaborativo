@@ -4,7 +4,7 @@ function login(){
     
     if(user == "Facu@gmail.com" && pass == "1234")
     {
-        window.location = "des.html";
+        window.location = "bienvenido.html";
     }
 
     else
