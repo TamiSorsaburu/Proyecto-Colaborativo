@@ -42,3 +42,8 @@ create table Usuarios(
 	password_u varbinary(8) not null,
 	FOREIGN KEY (detalle_ventaID) REFERENCES Detalle_venta(detalle_ventaID)
 )
+
+-- El CRUD no me sale el inner join pero en la base de datos si.
+
+-- select nombre,precio_venta
+-- from servicios inner join ventas on servicios.precio_venta=ventas.total;
